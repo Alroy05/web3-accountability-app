@@ -45,6 +45,7 @@ export const AddTask = () => {
                         backgroundColor: "#222",
                         borderRadius: "8px",
                         minWidth: "300px",
+                        zIndex: "3",
                     }}>
                         <button
                             onClick={() => setIsModalOpen(false)}

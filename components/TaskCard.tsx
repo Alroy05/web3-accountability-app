@@ -29,6 +29,7 @@ export const TaskCard = ({ taskId, task, isCompleted }: TaskProps) => {
                     padding: "5px 10px",
                     backgroundColor: "green",
                     borderRadius: "8px",
+                    zIndex: "0"
                 }}>Done!</p>
             ) : (
                 <TransactionButton
@@ -43,6 +44,7 @@ export const TaskCard = ({ taskId, task, isCompleted }: TaskProps) => {
                     style={{
                         fontSize: "12px",
                         padding: "5px 10px",
+                        zIndex: "0"
                     }}
                 >Complete Task</TransactionButton>
             )}
